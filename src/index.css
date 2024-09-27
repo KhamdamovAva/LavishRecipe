@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main__container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.instruction, table, tr, td, th{
+    border: #c3aa80 1px solid;
+    color: #ac8b52;
+}
+
+td {
+    padding: 5px 15px;
+} 
+
+th{
+    padding: 10px   ;
+}
+
+tr:first-child  {
+    background-color: #f3ecdf;
+    border-bottom: #c3aa80 1px solid;
+}
+
+tr{
+    background-color: #fdf9f2;
+}
